@@ -1,0 +1,157 @@
+/* font-family: 'Loved by the King', cursive; */
+
+
+h1{
+    font-size: 3rem;
+    line-height: 3.2rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h2{
+    font-size: 1.7rem;
+    line-height: 1.9rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+h3{
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif !important;
+    font-size: 1rem;
+    background-color: #e3e3e3;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+a:hover{
+    letter-spacing: 1px;
+}
+
+.c1{
+    color: #006d77;
+}
+
+.c2{
+    color: #83C5BE;
+}
+
+.bg-c1{
+    background-color:  #006d77;
+    color: #FFF;
+}
+
+.bg-c2{
+    background-color:  #83C5BE;
+    color: #474747;
+}
+
+.col-datos-personales .wrap, .col-datos-academicos .wrap{
+    padding: 30px;
+}
+
+.datos:not(:last-child){
+    border-bottom: 1px solid #b5cbc9;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+}
+.datos .bi{
+    color: #73FFF5;
+    font-size: 1.3rem;
+}
+
+.col-datos-academicos{
+    background-color: #ffffff;
+}
+
+.col-datos-academicos .item{
+    margin-bottom: 50px;
+}
+
+span.fecha{
+    font-style: italic;
+    color: #006d77;
+    font-size: 0.9rem;
+}
+
+#referencias{
+    background-color: #e3e3e3;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.bb{
+    border-bottom: 1px solid #006d77;
+}
+
+.boton{
+    background-color: #006d77;
+    padding: 7px 12px;
+    border-radius: 10px;
+    color: #FFF;
+    text-transform: uppercase;
+    font-size: 0.7rem;
+    font-weight: 400;
+}
+.boton:hover{
+    background-color: #83C5BE;
+    color: #474747;
+}
+
+ul li{
+    padding-bottom: 7px;
+}
+
+#btn-modal{
+    background-color: #83C5BE;
+}
+/* modal */
+.modal-titulo{
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 30%;
+    top: 5%;
+    width: 50%;
+    height: 80%;
+    overflow: auto;
+    background-color: #e3e3e3;
+
+}
+
+.close{
+    font-size: 3rem;ç
+    color: #474747;
+    float: right;
+}
+
+@media (min-width: 576px) {  }
+
+
+@media (min-width: 768px) { }
+
+
+@media (min-width: 992px) { }
+
+
+@media (min-width: 1200px) {
+    .descrip-personal{
+        border-top: 1px solid #006d77;
+        margin-top: 30px;
+        padding-top:25px;
+    }
+ }
+
+
+@media (min-width: 1400px) { }
